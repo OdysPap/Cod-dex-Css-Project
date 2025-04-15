@@ -1,0 +1,63 @@
+main{
+    margin: 2%;
+    left : 10%
+}
+img{
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 0 auto;
+    display: block;
+}
+nav ul {
+    list-style: none; 
+    padding: 0;
+}
+    nav ul li {
+        display: inline-block; 
+        margin: 0 10px;
+}
+body{
+    font: normal 16px/1.5 Times New Roman, serif;
+    color: black;
+    text-align: center;
+    background-color: rgb(169, 206, 221);
+}
+
+p{
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: rgb(240, 235, 225);
+    color:45, 56, 66;
+    position : relative;
+    width: 50%;
+    display: inline-block;
+}
+h1 , h2{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: inline-block;
+    width: auto;
+    padding: 4px;
+    margin: 0 auto;
+}
+#MessageMe{
+    position: fixed;
+    z-index: 1;
+    border: 5px darkgreen solid;
+    border-radius: 3px;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+details p{
+    color: white;
+    background-color: black;
+    font-family: 'Pacifico', cursive;
+    width: auto;
+    padding: 2px;
+}
